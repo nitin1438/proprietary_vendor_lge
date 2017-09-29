@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/lge/mako/proprietary/bin/qcks:system/bin/qcks \
     vendor/lge/mako/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/lge/mako/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/lge/mako/proprietary/bin/qseecomd:system/vendor/qseecomd \
     vendor/lge/mako/proprietary/bin/radish:system/bin/radish \
     vendor/lge/mako/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/mako/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
@@ -133,7 +133,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/lge/mako/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/lge/mako/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-    vendor/lge/mako/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/lge/mako/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
     vendor/lge/mako/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
     vendor/lge/mako/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
